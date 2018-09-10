@@ -48,6 +48,7 @@ the current or upcoming versions of npm, for example.
 
 #### Pros 
 * Updated more recently than Readium
+* pro 2
 * pro 3
 
 #### Cons 
