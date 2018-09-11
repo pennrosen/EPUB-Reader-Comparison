@@ -37,7 +37,7 @@ the current or upcoming versions of npm, for example.
 
 I do appreciate the attention to detail in **Epub.js**, and the code seems well-written: succinct without being confusing. It's written in a consistent style, which is nice for readability. However, this consistency is due to there being only [one contributor](https://github.com/futurepress/epubjs-reader/graphs/contributors). Such a high [bus factor](https://en.wikipedia.org/wiki/Bus_factor) is a tough pill to swallow when considering a library's use in production. 
 
-**Readium JS** may not have the polished style of the Epub.js examples, but it's got functionality where it counts. It has tests (Epub does not), it has 417 closed issues (Epub: 5), 1720 commits (Epub: 12), and 22 active contributors (Epub: 1). The project does seem to sprawl a bit, but that comes naturally in a feature-rich project. Support does not seem like an issue, especially considering it is a sub-library of a larger, well-maintained project.
+**Readium JS** may not have the polished style of the Epub.js examples, but it's got functionality where it counts. It has tests (Epub does not), it has 417 closed issues (Epub: 5), 1720 commits (Epub: 12), and 22 active contributors (Epub: 1). The project does seem to sprawl a bit, but that comes naturally in a feature-rich project. Support does not seem like an issue, especially considering it is a sub-library of a larger, well-maintained application.
 
 Ultimately, **Epub.js** would be a nice choice for a small project, due to its compact size and readability. Good for getting something relatively polished off the ground quickly.
 
