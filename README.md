@@ -28,7 +28,7 @@ the current or upcoming versions of npm, for example.
 * When was the most recent activity?
 * Have there been major releases recently? Just minor? Just bugfixes?
 * What is the version number?
-	* The presence of a prerelease tag (-alpha, -beta) indicates substantial risk, as does a major number of zero (0.y.z), which is used to indicate a work-in-progress that may contain any level of potentially breaking changes.
+	* The presence of a prerelease tag (-alpha, -beta) indicates substantial risk, as does a major number of zero (0.y.z), which may contain any level of potentially breaking changes.
 * Is the README well-written? Does the formatting show care?
 	* Attention paid to small details is usually a good sign for the big picture, too
 
