@@ -35,6 +35,10 @@ the current or upcoming versions of npm, for example.
 ## Conclusion
 **Both** libraries are free to use commercially, and both have similarly recent commits. It's hard to say which reader will best integrate with an unknown workflow, and without knowing the full scope of the project.
 
-I do appreciate the attention to detail in **Epub.js**, and the code seems well-written: succinct without being confusing. It's written in a consistent style, which is nice for readability. However, this consistency is due to there being only [one contributor](https://github.com/futurepress/epubjs-reader/graphs/contributors). Such a high [bus factor](https://en.wikipedia.org/wiki/Bus_factor) is a tough pill to swallow when considering a library's use in a production project.
+I do appreciate the attention to detail in **Epub.js**, and the code seems well-written: succinct without being confusing. It's written in a consistent style, which is nice for readability. However, this consistency is due to there being only [one contributor](https://github.com/futurepress/epubjs-reader/graphs/contributors). Such a high [bus factor](https://en.wikipedia.org/wiki/Bus_factor) is a tough pill to swallow when considering a library's use in production. 
 
-**Readium JS** may not have the polished style of Epub.js, but it's got functionality where it counts.
+**Readium JS** may not have the polished style of the Epub.js examples, but it's got functionality where it counts. It has tests (Epub does not), it has 417 closed issues (Epub: 5), 1720 commits (Epub: 12), and 22 active contributors (Epub: 1). The project does seem to sprawl a bit, but that comes naturally in a feature-rich project. Support does not seem like an issue, especially considering 
+
+Ultimately, **Epub.js** would be a nice choice for a small project, due to its compact size and readability. Good for getting something relatively polished off the ground quickly.
+
+Conversely, **Readium JS** seems like the go-to for a large project with complex requirements. Its testing suite and comparably robust dev community engender confidence for the customer-facing project with a long life cycle.
