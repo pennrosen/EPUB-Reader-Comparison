@@ -18,44 +18,23 @@ Packages that are maintained more frequently are more likely to work well with
 the current or upcoming versions of npm, for example.
 </pre>
 
-### Other Questions to Ask 
-* How easy would it be to migrate _to_ this library?
-* How easy would it be to migrate _from_ this library?
-* How old is this library?
-* When was the most recent activity?
-* How many active contributors?
-* What is the version number?
-	* The presence of a prerelease tag (-alpha, -beta) indicates substantial risk, as does a major number of zero (0.y.z), which is used to indicate a work-in-progress that may contain any level of potentially breaking changes (highest risk).
+### Other Questions to Ask
+* Does the license suit your needs?
 * How easy is it to integrate this library into my current workflow?
+  * How easy would it be to migrate _to_ this library?
+  * How easy would it be to migrate _from_ this library?
+* When was this project started?
+* How many active contributors?
+* When was the most recent activity?
+* Have there been major releases recently? Just minor? Just bugfixes?
+* What is the version number?
+	* The presence of a prerelease tag (-alpha, -beta) indicates substantial risk, as does a major number of zero (0.y.z), which is used to indicate a work-in-progress that may contain any level of potentially breaking changes.
 * Is the README well-written? Does the formatting show care?
 	* Attention paid to small details is usually a good sign for the big picture, too
 
-## Misc
-
-### ReadiumJS Viewer
-
-#### Pros
-* pro 1
-* pro 2
-* pro 3
-
-#### Cons
-* con 1
-* con 2
-* con 3
-
-### Epub.js Reader 
-
-#### Pros 
-* Updated more recently than Readium
-* pro 2
-* pro 3
-
-#### Cons 
-* Only [one contributor](https://github.com/futurepress/epubjs-reader/graphs/contributors) == high [bus factor](https://en.wikipedia.org/wiki/Bus_factor)
-* con 2
-* con 3
-
 ## Conclusion
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quaerat itaque eveniet laborum quasi hic aut quo laboriosam soluta temporibus. Perferendis numquam delectus nisi harum libero minima totam consequatur possimus?
+**Both** libraries are free to use commercially, and both have similarly recent commits. It's hard to say which reader will best integrate with an unknown workflow, and without knowing the full scope of the project.
 
+I do appreciate the attention to detail in **Epub.js**, and the code seems well-written: succinct without being confusing. It's written in a consistent style, which is nice for readability. However, this consistency is due to there being only [one contributor](https://github.com/futurepress/epubjs-reader/graphs/contributors). Such a high [bus factor](https://en.wikipedia.org/wiki/Bus_factor) is a tough pill to swallow when considering a library's use in a production project.
+
+**Readium JS** may not have the polished style of Epub.js, but it's got functionality where it counts.
