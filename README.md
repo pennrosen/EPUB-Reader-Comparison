@@ -19,7 +19,7 @@ the current or upcoming versions of npm, for example.
 </pre>
 
 ### Other Questions to Ask
-* Does the license suit your needs?
+* Does the library's license suit the project's needs?
 * How easy is it to integrate this library into my current workflow?
   * How easy would it be to migrate _to_ this library?
   * How easy would it be to migrate _from_ this library?
